@@ -1,0 +1,9 @@
+.venv/
+out/
+cache/
+build/
+.certora_internal/
+.certora_sources/
+spec/.lake/
+__pycache__/
+*.egg-info/

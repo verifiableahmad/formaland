@@ -1,0 +1,9 @@
+name = "formaland"
+defaultTargets = ["Formaland", "export"]
+
+[[lean_lib]]
+name = "Formaland"
+
+[[lean_exe]]
+name = "export"
+root = "Export"

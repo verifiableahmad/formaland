@@ -1,0 +1,16 @@
+[project]
+name = "formaland"
+version = "0.0.1"
+description = "Reviewed formal specs for ERC-20 / ERC-4626, checked against real contracts"
+requires-python = ">=3.11"
+dependencies = ["halmos>=0.3.3", "certora-cli>=8.20"]
+
+[project.scripts]
+formaland = "formaland.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["formaland"]
